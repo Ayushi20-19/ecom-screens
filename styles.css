@@ -126,10 +126,21 @@ nav ul li a:hover {
   background-color: var(--home-primary-color);
   margin-left: 0;
   padding: 0.5rem;
-  border: 0;
+  border: 2px solid var(--home-primary-color);
   border-radius: 0.4rem;
   margin: 1rem 0;
+  font-size: 1.2rem;
   color: var(--white-color);
+}
+.outline-btn {
+  border: 2px solid var(--home-primary-color);
+  background-color: var(--white-color);
+  margin-left: 0;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.4rem;
+  margin: 1rem 0;
+  color: var(--home-primary-color);
 }
 
 .image-feature img {
