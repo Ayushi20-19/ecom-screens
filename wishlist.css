@@ -1,0 +1,13 @@
+.heading-wishlist {
+  margin: 2rem;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.wishlist-prod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 3rem;
+}
