@@ -1,0 +1,49 @@
+.main-section {
+  width: 100%;
+  display: flex;
+}
+
+.filter-sidebar {
+  width: 25%;
+  height: 90vh;
+}
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.filters {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  padding: 0.5rem;
+}
+.filters ul li {
+  list-style: none;
+  padding: 0.3rem 0;
+  margin: 0.5rem 0 0 1rem;
+  font-size: 1.1rem;
+}
+.price-range,
+.slider {
+  width: 80%;
+}
+.price-range {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+.main-prod-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.prod-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 800px) {
+  .filter-sidebar {
+    display: none;
+  }
+}

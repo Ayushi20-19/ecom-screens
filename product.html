@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- blossom component library -->
+    <link
+      rel="stylesheet"
+      href="https://blossom-ui.netlify.app/components/styles.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="product.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="navbar">
+        <h5 class="logo">Ecom</h5>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li>
+              <a href="#"><i class="fas fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fas fa-user-plus"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <a class="ham-burger" onclick="sideBarShow()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <sidebar class="navsidebar">
+          <span> <a href="./index.html">Home</a> </span>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Login/Signup</a></li>
+        </sidebar>
+      </div>
+      <div class="main-section">
+        <aside class="filter-sidebar">
+          <div class="sidebar-content">
+            <div class="filters"><h1 class="filter-heading">Filters</h1></div>
+            <hr />
+            <div class="filters">
+              <h1>Price</h1>
+              <div class="price-range">
+                <span>500</span>
+                <span>1000</span>
+                <span>9900</span>
+              </div>
+              <input type="range" class="slider" min="0" max="100" value="10" />
+            </div>
+            <hr />
+            <div class="filters">
+              <h1>Category</h1>
+              <ul>
+                <li><input type="checkbox" /> Mens</li>
+                <li><input type="checkbox" /> Womens</li>
+                <li><input type="checkbox" /> Children</li>
+              </ul>
+            </div>
+            <hr />
+            <div class="filters">
+              <h1>Rating</h1>
+              <ul>
+                <li><input type="radio" name="rating" /> 5 start to 4 star</li>
+                <li><input type="radio" name="rating" /> 4 start to 3 star</li>
+                <li><input type="radio" name="rating" /> 3 start to 1 star</li>
+              </ul>
+            </div>
+            <hr />
+            <div class="filters">
+              <h1>SortBy</h1>
+              <ul>
+                <li><input type="radio" name="sortby" /> Newest First</li>
+                <li><input type="radio" name="sortby" /> Low to high</li>
+                <li><input type="radio" name="sortby" /> High to low</li>
+              </ul>
+            </div>
+            <hr />
+          </div>
+        </aside>
+
+        <!------- product display section ------->
+        <section class="main-prod-section">
+          <div><h1>456 items</h1></div>
+          <div class="prod-container">
+            <!-- ------ecom card start----- -->
+            <div class="card-wrapper">
+              <div class="element image-ecard">
+                <img
+                  src="https://images.unsplash.com/photo-1554568218-ffd1e72a2151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt="product img"
+                />
+              </div>
+              <div class="content-ecard">
+                <span>title of product</span>
+                <p>Description of product</p>
+              </div>
+              <div class="btns-wrapper-ecom">
+                <span>$50</span>
+                <span>4 stars</span>
+              </div>
+              <button class="btn-ecom">Add to Cart</button>
+            </div>
+            <!-- ------ecom card ends----- -->
+
+            <!-- ------ecom card start----- -->
+            <div class="card-wrapper">
+              <div class="element image-ecard">
+                <img
+                  src="https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt="product img"
+                />
+              </div>
+              <div class="content-ecard">
+                <span>title of product</span>
+                <p>Description of product</p>
+              </div>
+              <div class="btns-wrapper-ecom">
+                <span>$50</span>
+                <span>4 stars</span>
+              </div>
+              <button class="btn-ecom">Add to Cart</button>
+            </div>
+            <!-- ------ecom card ends----- -->
+
+            <!-- ------ecom card start----- -->
+            <div class="card-wrapper">
+              <div class="element image-ecard">
+                <img
+                  src="https://images.unsplash.com/photo-1554568218-ffd1e72a2151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt="product img"
+                />
+              </div>
+              <div class="content-ecard">
+                <span>title of product</span>
+                <p>Description of product</p>
+              </div>
+              <div class="btns-wrapper-ecom">
+                <span>$50</span>
+                <span>4 stars</span>
+              </div>
+              <button class="btn-ecom">Add to Cart</button>
+            </div>
+            <!-- ------ecom card ends----- -->
+
+            <!-- ------ecom card start----- -->
+            <div class="card-wrapper">
+              <div class="element image-ecard">
+                <img
+                  src="https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt="product img"
+                />
+              </div>
+              <div class="content-ecard">
+                <span>title of product</span>
+                <p>Description of product</p>
+              </div>
+              <div class="btns-wrapper-ecom">
+                <span>$50</span>
+                <span>4 stars</span>
+              </div>
+              <button class="btn-ecom">Add to Cart</button>
+            </div>
+            <!-- ------ecom card ends----- -->
+
+            <!-- ------ecom card start----- -->
+            <div class="card-wrapper">
+              <div class="element image-ecard">
+                <img
+                  src="https://images.unsplash.com/photo-1554568218-ffd1e72a2151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt="product img"
+                />
+              </div>
+              <div class="content-ecard">
+                <span>title of product</span>
+                <p>Description of product</p>
+              </div>
+              <div class="btns-wrapper-ecom">
+                <span>$50</span>
+                <span>4 stars</span>
+              </div>
+              <button class="btn-ecom">Add to Cart</button>
+            </div>
+            <!-- ------ecom card ends----- -->
+
+            <!-- ------ecom card start----- -->
+            <div class="card-wrapper">
+              <div class="element image-ecard">
+                <img
+                  src="https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt="product img"
+                />
+              </div>
+              <div class="content-ecard">
+                <span>title of product</span>
+                <p>Description of product</p>
+              </div>
+              <div class="btns-wrapper-ecom">
+                <span>$50</span>
+                <span>4 stars</span>
+              </div>
+              <button class="btn-ecom">Add to Cart</button>
+            </div>
+            <!-- ------ecom card ends----- -->
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!----------- footers section ------------>
+    <footer>
+      <div class="footer-content">
+        <div class="brandname">
+          <h3 class="footer-heading">Winter Store</h3>
+        </div>
+        <div class="footer-links">
+          <span>About Us</span>
+          <span>Privacy Policy</span>
+          <span>Blogs</span>
+          <span>Contact Us</span>
+        </div>
+        <div class="footer-copyright">
+          Copyright © 2022 Winter Store. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <script src="/index.js"></script>
+  </body>
+</html>

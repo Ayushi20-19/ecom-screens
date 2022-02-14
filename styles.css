@@ -145,6 +145,7 @@ nav ul li a:hover {
   border: 0;
   border-radius: 0;
   margin: 1rem 0;
+  font-size: 1.2rem;
   color: var(--white-color);
 }
 .primary-btn:hover {
@@ -293,6 +294,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   background-color: var(--light-bg-color);
+  margin: 0.5rem 0;
 }
 .image-ecard img {
   filter: brightness(100%);
