@@ -20,19 +20,18 @@
   height: fit-content;
   padding: 2rem;
   width: 20rem;
-  box-shadow: 0.1rem 0.3rem 0.4rem grey;
-  border-radius: 0.5rem;
+  border: 2px solid var(--light-gray-color);
   background-color: var(--white-color);
 }
 .price-heading {
   padding-bottom: 0.8rem;
-  border-bottom: 2px solid rgb(207, 207, 207);
-  font: 1.5em sans-serif;
+  border-bottom: 2px solid var(--light-gray-color);
+  font: 1.5em;
 }
 .pricing {
   height: 8rem;
   width: 100%;
-  border-bottom: 2px solid rgb(207, 207, 207);
+  border-bottom: 2px solid var(--light-gray-color);
 }
 .pricing-item {
   display: flex;
@@ -46,11 +45,11 @@
   align-items: center;
   justify-content: space-between;
   font-weight: 600;
-  border-bottom: 2px solid rgb(207, 207, 207);
+  border-bottom: 2px solid var(--light-gray-color);
 }
 .amount-save {
   margin-top: 1rem;
-  color: rgb(136, 136, 136);
+  color: var(--gray-color);
 }
 .btn {
   display: flex;
