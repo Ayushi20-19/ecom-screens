@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- blossom component library -->
+    <link
+      rel="stylesheet"
+      href="https://blossom-ui.netlify.app/components/styles.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <title>Cart Page</title>
+  </head>
+  <body>
+    <main>
+      <div class="navbar">
+        <h5 class="logo">Ecom</h5>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li>
+              <a href="#"><i class="fas fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fas fa-user-plus"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <a class="ham-burger" onclick="sideBarShow()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <sidebar class="navsidebar">
+          <span> <a href="./index.html">Home</a> </span>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Login/Signup</a></li>
+        </sidebar>
+      </div>
+      <section class="cart-main">
+        <div class="heading-cart"><h1>My Carts</h1></div>
+        <div class="cart-prod-wrapper">
+          <div class="cart-prod">
+            <div class="card-wrapper">
+              <div class="element image-ecard">
+                <img
+                  src="https://images.unsplash.com/photo-1554568218-ffd1e72a2151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                  alt="product img"
+                />
+              </div>
+              <div class="content-ecard">
+                <span>title of product</span>
+                <p>Description of product</p>
+              </div>
+              <div class="btns-wrapper-ecom">
+                <span>$50</span>
+                <span>4 stars</span>
+              </div>
+              <button class="btn-ecom">Add More</button>
+            </div>
+            <div class="price-card">
+              <div class="price-card-content">
+                <div class="price-heading">
+                  <b>PRICE DETAILS</b>
+                </div>
+                <div class="pricing">
+                  <div class="pricing-item">
+                    <span>Price</span>
+                    <span>2342$</span>
+                  </div>
+                  <div class="pricing-item">
+                    <span>Discount</span>
+                    <span>-40$</span>
+                  </div>
+                  <div class="pricing-item">
+                    <span>Delivery Charges</span>
+                    <span>10$</span>
+                  </div>
+                </div>
+                <div class="total-amout">
+                  <span>Total Amount</span>
+                  <span>4090$</span>
+                </div>
+                <div class="amount-save">You will save 40$ in this order</div>
+                <div class="btn primary-btn">Place Order</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!----------- footers section ------------>
+    <footer>
+      <div class="footer-content">
+        <div class="brandname">
+          <h3 class="footer-heading">Winter Store</h3>
+        </div>
+        <div class="footer-links">
+          <span>About Us</span>
+          <span>Privacy Policy</span>
+          <span>Blogs</span>
+          <span>Contact Us</span>
+        </div>
+        <div class="footer-copyright">
+          Copyright © 2022 Winter Store. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <script src="/index.js"></script>
+  </body>
+</html>
