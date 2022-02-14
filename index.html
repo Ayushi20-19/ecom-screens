@@ -4,27 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+
     <!-- blossom component library -->
     <link
       rel="stylesheet"
       href="https://blossom-ui.netlify.app/components/styles.css"
     />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
     <main>
       <div class="navbar">
-        <h5 class="logo">Ecom</h5>
+        <h5 class="logo">LOGO</h5>
         <nav>
           <ul>
-            <li><a href="./index.html">Home</a></li>
+            <li><input class="searchbar" placeholder="search" /></li>
             <li><a href="#">Products</a></li>
             <li>
               <a href="#"><i class="fas fa-heart"></i></a>
@@ -49,32 +50,171 @@
           <li><a href="#">Login/Signup</a></li>
         </sidebar>
       </div>
+      <!----------- hero section ------------>
       <section class="body">
         <div class="content">
-          <h1>Ecom Website</h1>
+          <h1>Winter Store</h1>
           <p>
             Welcome to ecom website get the exclusive products in less prices
           </p>
-          <button class="primary-btn">Get started</button>
+          <button class="primary-btn">Shop Now</button>
         </div>
       </section>
-      <div class="feature-prod">
-        <div class="feature-card">
-          <div class="image-feature">
+
+      <!----------- our section ------------>
+      <section class="our-story">
+        <div class="title1"><h1>Welcome to our story</h1></div>
+        <div class="des">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div class="brandname"><h3>Winter Store</h3></div>
+      </section>
+
+      <!----------- categories section ------------>
+      <section class="row-container">
+        <div class="varity-card">
+          <div class="element">
             <img
-              src="https://images.unsplash.com/photo-1554227231-54aa5db01c51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdCUyMHdpdGglMjB3aGl0ZSUyMGJnfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
-              alt=""
+              src="https://cdn.pixabay.com/photo/2020/10/26/14/50/pumpkin-5687556__340.jpg"
+              alt="girl in theme dress"
             />
           </div>
-          <div class="feature-prod-content">
-            <h1 class="feature-prod-heading">Name of product</h1>
-            <p class="feature-prod-desc">description of product and all</p>
+          <div class="text">
+            <div class="box">
+              <span>Theme Parties</span>
+              <p>some content here</p>
+            </div>
           </div>
         </div>
-      </div>
+        <div class="varity-card">
+          <div class="element">
+            <img
+              src="https://cdn.pixabay.com/photo/2017/09/06/21/42/model-2723144__340.jpg"
+              alt="girl in black dress"
+            />
+          </div>
+          <div class="text">
+            <div class="box">
+              <span>Customize Items</span>
+              <p>some content here</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------- bestseller section ------------>
+      <section class="bestseller">
+        <div class="heading-bestseller">
+          <h1>Bestseller Products</h1>
+          <hr class="short-line" />
+          <hr class="shorter-line" />
+        </div>
+        <div class="bestseller-container">
+          <div class="home-tab-title">
+            <span>Iteme one</span><span>|</span> <span>Iteme one</span
+            ><span>|</span>
+            <span>Iteme one</span>
+          </div>
+          <div class="bestseller-prods">
+            <div class="bestseller-prods-wrapper">
+              <div class="card-wrapper">
+                <div class="element image-ecard">
+                  <img
+                    src="https://images.unsplash.com/photo-1554568218-ffd1e72a2151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                    alt="product img"
+                  />
+                </div>
+                <div class="content-ecard">
+                  <span>title of product</span>
+                  <p>Description of product</p>
+                </div>
+                <div class="btns-wrapper-ecom">
+                  <span>$50</span>
+                  <span>4 stars</span>
+                </div>
+                <button class="btn-ecom">Add to Cart</button>
+              </div>
+
+              <div class="card-wrapper">
+                <div class="element image-ecard">
+                  <img
+                    src="https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                    alt="product img"
+                  />
+                </div>
+                <div class="content-ecard">
+                  <span>title of product</span>
+                  <p>Description of product</p>
+                </div>
+                <div class="btns-wrapper-ecom">
+                  <span>$50</span>
+                  <span>4 stars</span>
+                </div>
+                <button class="btn-ecom">Add to Cart</button>
+              </div>
+
+              <div class="card-wrapper">
+                <div class="element image-ecard">
+                  <img
+                    src="https://images.unsplash.com/photo-1554568218-ffd1e72a2151?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                    alt="product img"
+                  />
+                </div>
+                <div class="content-ecard">
+                  <span>title of product</span>
+                  <p>Description of product</p>
+                </div>
+                <div class="btns-wrapper-ecom">
+                  <span>$50</span>
+                  <span>4 stars</span>
+                </div>
+                <button class="btn-ecom">Add to Cart</button>
+              </div>
+
+              <div class="card-wrapper">
+                <div class="element image-ecard">
+                  <img
+                    src="https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHw0NTg1MDAxfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                    alt="product img"
+                  />
+                </div>
+                <div class="content-ecard">
+                  <span>title of product</span>
+                  <p>Description of product</p>
+                </div>
+                <div class="btns-wrapper-ecom">
+                  <span>$50</span>
+                  <span>4 stars</span>
+                </div>
+                <button class="btn-ecom">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!----------- footers section ------------>
     <footer>
-      <div class="footer-content"><h3>some content</h3></div>
+      <div class="footer-content">
+        <div class="brandname">
+          <h3 class="footer-heading">Winter Store</h3>
+        </div>
+        <div class="footer-links">
+          <span>About Us</span>
+          <span>Privacy Policy</span>
+          <span>Blogs</span>
+          <span>Contact Us</span>
+        </div>
+        <div class="footer-copyright">
+          Copyright © 2022 Winter Store. All Rights Reserved
+        </div>
+      </div>
     </footer>
     <script src="/index.js"></script>
   </body>
