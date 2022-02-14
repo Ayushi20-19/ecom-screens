@@ -294,6 +294,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   background-color: var(--light-bg-color);
+  margin: 0.5rem 0;
 }
 .image-ecard img {
   filter: brightness(100%);

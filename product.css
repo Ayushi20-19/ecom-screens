@@ -22,7 +22,15 @@
   margin: 0.5rem 0 0 1rem;
   font-size: 1.1rem;
 }
-
+.price-range,
+.slider {
+  width: 80%;
+}
+.price-range {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
 .main-prod-section {
   flex: 1;
   display: flex;
@@ -32,9 +40,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-.prod-item {
-  margin: 1rem 0;
 }
 
 @media only screen and (max-width: 800px) {
