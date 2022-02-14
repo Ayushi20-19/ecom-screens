@@ -1,7 +1,8 @@
 .heading-wishlist {
-  margin: 2rem;
+  margin: 4rem;
   display: flex;
   align-self: center;
+  font-size: 1.3rem;
   justify-content: center;
 }
 
@@ -10,4 +11,8 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 0 3rem;
+  padding: 1rem;
+  border: 2px solid var(--light-gray-color);
+  box-shadow: 0 0 0 1px var(--light-gray-color), 0 0 0 9px var(--white-color),
+    0 0 0 11px var(--light-gray-color);
 }
