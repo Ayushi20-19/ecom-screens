@@ -9,10 +9,11 @@
   --light-bg-color: #f9fdff;
   --primary-color: #00283b;
   --secondary-color: #006691;
-  --accent-color: rgb(55, 235, 255);
+  --accent-color: #f17b4c;
   --black-color: #000000;
   --white-color: #ffffff;
-  --gray-color: rgb(106, 106, 106);
+  --gray-color: #969696;
+  --light-gray-color: #dddddd;
 }
 html {
   font-family: "Karla", sans-serif;
@@ -212,11 +213,14 @@ nav ul li a:hover {
   width: 100%;
   transform-origin: 50%;
   transform: scale(1);
-  transition: transform 0.3s ease-out;
+  transition: transform 0.4s ease-out;
   filter: brightness(50%);
 }
 .element:hover img {
   transform: scale(1.2);
+}
+.varity-card:hover img {
+  transform: scale(1.3);
 }
 .text {
   position: absolute;
@@ -326,7 +330,7 @@ nav ul li a:hover {
   padding: 0.7rem 0.4rem;
   border-radius: 0;
   top: 69%;
-  left: 72%;
+  left: 70%;
   color: var(--white-color);
   border: 0;
 }
