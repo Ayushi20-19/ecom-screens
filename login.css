@@ -27,10 +27,8 @@
   border-radius: 0;
   margin: 0.9rem 0 0 0;
 }
-.primary-outline {
-  border: 2px solid var(--primary-color);
-}
-hr {
+
+.auth-card-hr {
   margin: 1rem 0;
 }
 
