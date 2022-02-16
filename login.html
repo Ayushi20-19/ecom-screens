@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- blossom component library -->
+    <link
+      rel="stylesheet"
+      href="https://blossom-ui.netlify.app/components/styles.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="login.css" />
+
+    <title>Login Page</title>
+  </head>
+  <body>
+    <main>
+      <div class="navbar">
+        <h5 class="logo">Ecom</h5>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li>
+              <a href="#"><i class="fas fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fas fa-user-plus"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <a class="ham-burger" onclick="sideBarShow()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <sidebar class="navsidebar">
+          <span> <a href="./index.html">Home</a> </span>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Wishlist</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Login/Signup</a></li>
+        </sidebar>
+      </div>
+
+      <!-- login section -->
+      <section>
+        <div class="login-wrapper">
+          <div class="login-card-wrapper">
+            <div class="login-card">
+              <div class="heading-login">
+                <h1>Login in to Winter</h1>
+              </div>
+              <hr />
+              <div>
+                <form action="" class="login-content">
+                  <h3>Enter Your Email</h3>
+                  <input placeholder="Enter Your Email" type="email" />
+                  <h3>Enter Your Password</h3>
+                  <input placeholder="Enter Your Password" type="password" />
+                  <a href=""> <p>Forget Password</p></a>
+                  <button class="btn primary-outline">
+                    Login With Test Credentials
+                  </button>
+                  <button class="btn primary">Login</button>
+                  <hr />
+                </form>
+                <p>Not a user yet? <a href="#">Create your account</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="brandname">
+          <h3 class="footer-heading">Winter Store</h3>
+        </div>
+        <div class="footer-links">
+          <span>About Us</span>
+          <span>Privacy Policy</span>
+          <span>Blogs</span>
+          <span>Contact Us</span>
+        </div>
+        <div class="footer-copyright">
+          Copyright © 2022 Winter Store. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <script src="/index.js"></script>
+  </body>
+</html>
