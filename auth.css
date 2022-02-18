@@ -26,6 +26,7 @@
 .btn {
   border-radius: 0;
   margin: 0.9rem 0 0 0;
+  font-size: 1.2rem;
 }
 
 .auth-card-hr {
