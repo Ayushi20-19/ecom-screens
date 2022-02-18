@@ -48,11 +48,20 @@
   border-bottom: 2px solid var(--light-gray-color);
 }
 .amount-save {
-  margin-top: 1rem;
+  margin: 1rem 0;
   color: var(--gray-color);
 }
-.btn {
+.btn-cart {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50%;
+  margin: 0;
+  padding: 0.5rem 0.2rem;
+  background-color: transparent;
+  border: 0.1rem solid var(--light-gray-color);
+}
+
+.place-order {
+  width: 100%;
 }
