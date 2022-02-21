@@ -26,7 +26,7 @@
 .price-heading {
   padding-bottom: 0.8rem;
   border-bottom: 2px solid var(--light-gray-color);
-  font: 1.5em;
+  font: 1.5rem;
 }
 .pricing {
   height: 8rem;
@@ -64,4 +64,5 @@
 
 .place-order {
   width: 100%;
+  font-size: 1.2rem;
 }
