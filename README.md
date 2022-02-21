@@ -2,21 +2,26 @@
   Ecom
   <br />
 </h1>
-# Ecom screens
+## Ecom screens
 
 They are the screens for ecom app, there is a main link page and other few screens:
 
 
-## Demo
+## Demo Link
 
 https://ecom-screens-av.netlify.app/
 
+<hr/>
 
-## Css component library
-this is the css library which is used in the code
-https://blossom-ui.netlify.app/
+## Tech used
 
-## demo screens
+- css library : https://blossom-ui.netlify.app/
+- html
+- js
+
+<hr/>
+
+## Demo screens
 
 ## Clean ui and animated cards 
 
