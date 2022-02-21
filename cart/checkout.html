@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- blossom component library -->
+    <link
+      rel="stylesheet"
+      href="https://blossom-ui.netlify.app/components/styles.css"
+    />
+    <link rel="stylesheet" href="../home/styles.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="checkout.css" />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <main>
+      <div class="navbar">
+        <h5 class="logo">Ecom</h5>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li>
+              <a href="#"><i class="fas fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fas fa-user-plus"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <a class="ham-burger" onclick="sideBarShow()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <sidebar class="navsidebar">
+          <span> <a href="../home/home.html">Home</a> </span>
+          <span><a href="../product/product.html">Products</a></span>
+          <span><a href="../wishlist/wishlist.html">Wishlist</a></span>
+          <span><a href="../cart/cart.html">Cart</a></span>
+          <span><a href="../auth/signup.html">Login/Signup</a></span>
+        </sidebar>
+      </div>
+      <section class="cart-main">
+        <div class="heading-cart"><h1>Checkout</h1></div>
+        <div class="checkout-card">
+          <div class="checkout-card-content">
+            <div class="price-heading">
+              <b>PRICE DETAILS</b>
+            </div>
+            <div class="pricing">
+              <div class="pricing-item">
+                <span>Price</span>
+                <span>2342$</span>
+              </div>
+              <div class="pricing-item">
+                <span>Discount</span>
+                <span>-40$</span>
+              </div>
+              <div class="pricing-item">
+                <span>Delivery Charges</span>
+                <span>10$</span>
+              </div>
+            </div>
+            <div class="total-amout">
+              <span>Total Amount</span>
+              <span>4090$</span>
+            </div>
+            <div class="amount-save">You will save 40$ in this order</div>
+            <div class="address">
+              <label for="address"
+                ><p class="checkout-heading">Enter your address</p></label
+              >
+              <input type="text" id="address" class="checkout-input" />
+            </div>
+            <div class="payment">
+              <p class="checkout-heading">Select Payment Option</p>
+              <ul class="no-bullet">
+                <li><input type="radio" name="payment" /> COD</li>
+                <li><input type="radio" name="payment" /> Card</li>
+                <li><input type="radio" name="payment" /> UPI</li>
+              </ul>
+            </div>
+            <div class="coupon">
+              <label for="coupon"
+                ><p class="checkout-heading">Enter Your coupon code</p></label
+              >
+              <input type="text" id="coupon" class="checkout-input" />
+            </div>
+            <button
+              class="btn primary border-radius-0 place-order margin-top-1"
+            >
+              Place Order
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../home/index.js"></script>
+  </body>
+</html>

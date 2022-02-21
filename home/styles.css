@@ -41,7 +41,13 @@ main {
   font-family: Satisfy;
   color: var(--secondary-color);
 }
+nav li i:hover {
+  color: var(--secondary-color);
+}
 
+button:hover {
+  background-color: var(--secondary-color);
+}
 /* ----------hero section--------- */
 .body {
   width: 100%;

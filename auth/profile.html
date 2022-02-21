@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- blossom component library -->
+    <link
+      rel="stylesheet"
+      href="https://blossom-ui.netlify.app/components/styles.css"
+    />
+    <link rel="stylesheet" href="../home/styles.css" />
+    <link rel="stylesheet" href="./profile.css" />
+    <title>Profile Page</title>
+  </head>
+  <body>
+    <main>
+      <div class="navbar">
+        <h5 class="logo">Ecom</h5>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li>
+              <a href="#"><i class="fas fa-heart"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+
+            <li>
+              <a href="#"><i class="fas fa-user-plus"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <a class="ham-burger" onclick="sideBarShow()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <sidebar class="navsidebar">
+          <span> <a href="../home/home.html">Home</a> </span>
+          <span><a href="../product/product.html">Products</a></span>
+          <span><a href="../wishlist/wishlist.html">Wishlist</a></span>
+          <span><a href="../cart/cart.html">Cart</a></span>
+          <span><a href="../auth/signup.html">Login/Signup</a></span>
+        </sidebar>
+      </div>
+      <section class="user-section margin-top-3 margin-bottom-2">
+        <div class="user-card">
+          <div class="flex-row align-items-baseline">
+            <div class="avatar avatar-md-size">
+              <img
+                class="img-round"
+                src="https://blossom-ui.netlify.app/assets/userProfilePic.jpg"
+                alt="avatar"
+              />
+            </div>
+
+            <div class="user"><h1>User Name</h1></div>
+          </div>
+          <div class="user-details">
+            <p class="sub-headings">User Details</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="address-managment">
+            <p class="sub-headings">Address Managment</p>
+            <input
+              type="text"
+              class="profile-input"
+              placeholder="default address"
+            />
+            <button class="btn primary border-radius-0">Save</button>
+          </div>
+          <div class="order-history">
+            <p class="sub-headings">Order History</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../home/index.js"></script>
+  </body>
+</html>

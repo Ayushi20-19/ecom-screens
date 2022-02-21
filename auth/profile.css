@@ -1,0 +1,22 @@
+.user-section {
+  width: 100%;
+}
+.user-card {
+  width: 70%;
+  margin: auto;
+  border: 2px solid var(--light-gray-color);
+  padding: 1rem;
+}
+.sub-headings {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.6rem;
+  padding: 1rem 0;
+  border-top: 2px solid var(--light-gray-color);
+}
+
+.profile-input {
+  width: 90%;
+  padding: 1rem 0.8rem;
+  margin-bottom: 1rem;
+}
