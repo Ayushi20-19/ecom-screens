@@ -16,3 +16,10 @@
   box-shadow: 0 0 0 1px var(--light-gray-color), 0 0 0 9px var(--white-color),
     0 0 0 11px var(--light-gray-color);
 }
+.remove {
+  position: absolute;
+  padding: 0.7rem 0.4rem;
+  border-radius: 0;
+  top: 69%;
+  right: 75%;
+}
